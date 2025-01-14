@@ -10,7 +10,7 @@ Understanding intricacies and quirks and establish a solid grounding in the fund
 
 ## Notes
 
-The key reasons causing you to feel lack of confidence being:
+Possible key reasons causing you to feel lack of confidence are :
 
 -   Having a partial conceptual understanding of the crucial pieces in the toolchain.
 
