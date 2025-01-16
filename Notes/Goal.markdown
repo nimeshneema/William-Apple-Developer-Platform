@@ -6,4 +6,6 @@
 
 By taking this approach, the ultimate aim is to get the tools out of the way, so that it enables us to express our ideas in the form of apps seamlessly.
 
+Learn and being able to write Swifty code.
+
 ---

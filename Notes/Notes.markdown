@@ -56,6 +56,6 @@ But it does not have to be this way. There's certainly a way out. There are core
 
 -   Start by establishing a solid understanding of core fundamental concepts, features and syntax in Swift programming language. It is an absolute must have pre-requisite if one intends to become competent and confident app developer for Apple platform of devices. While the basic constructs in the language are mostly the same as other imperative languages, some special features have been designed and baked into the language to ensure developers write safe (avoiding runtime issues, intdeterminate code), robust and performant code.
 
-    The language has also been designed such that the code can be both expressive (verbose) as well as highly compact at the same time. While neither of the verbosity nor expression of compactness is pushed, but it is onto the developer as to which mode works the best for a given scenario. This way, they get the flexibility of expression that's most suited for the current context.
+    The language has also been designed such that the code can be both expressive (verbose) as well as highly compact at the same time (Swifty code). While neither of the verbosity nor expression of compactness is pushed, but it is onto the developer as to which mode works the best for a given scenario. This way, they get the flexibility of expression that's most suited for the current context.
 
 ---
