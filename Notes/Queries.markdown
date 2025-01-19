@@ -10,6 +10,8 @@
 
     `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`
 
+    It's a convention in Cocoa apps to use descritive prose like names for functions.
+
     gets translated into Swift equivalent as below:
 
     `func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool`
@@ -42,4 +44,14 @@
 
 ---
 
-In Swift language, there are no separate files for the interface and the implementation (which is unlike what we are used to seeing in Objective-C).
+-   Note: In Swift language, there are no separate files for the interface and the implementation (which is unlike what we are used to seeing in Objective-C).
+
+---
+
+-   For nested data stctures such as objects or dictionaries, how does the mutability work?
+
+For the reference data types such as objects (an object which is an instance of a class, itself may have properties which are int or string), the properties themselves can be mutated even if the original object is assigned to a let variable.
+
+(I will be able to answer this question more formally and in a better way once we have discussed class types in Swift. There are 4 types objects can be created in Swift. Class, Strcut, Enum and Actors)
+
+---
