@@ -16,9 +16,18 @@
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+        // Override point for customization after application launch.
     
     NSString *aStringThatIJustmade = @"HelloWorld";
+        // NSString is a class defined in the Foundation framework
+        // aStringThatIJustmade is an object or an instance of the NSString class.
+        // In Objective-C we are used to working with the pointer syntax when creating an object reference.
+        // A C programming language example:
+        // int x = 10;
+        // int *p = &x; pointer syntax
+        // Similar pointer syntax is used in Objective-C to create object reference.
+        // This is because Objective-C is heavily based on C and only adds a few basic object oriented features.
+        // We formally say that objective-c has added support for objects to C.
     
     [aStringThatIJustmade characterAtIndex:0];
     
