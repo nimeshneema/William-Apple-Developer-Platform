@@ -76,7 +76,7 @@
 
     How does the exeuction of functions happen in a program
 
-    Memory layout of a running proess.
+    Memory layout of a running process.
 
     There's an area for dynamic allocation of memory which is used to allocate memory for entites as and when needed while the program is running.
 
@@ -138,3 +138,9 @@
     In an array you can still change the values of the individual elements by re-assignment, but the size of the container (array) itself is hardcoded at compile time, meaning the memory is allocated statically.
 
     A dictionary data type is supported in more modern languages than C (such as Ruby, Python, JavaScript, Swift). These languages are also so much more dynamic in terms of memory allocation and the dynamic memory allocation is handled behind the scence such that the developer never even cares or has to worry about the allocation and deallocation of memory. It happens behind the scenece in a automated manner.
+
+---
+
+Difference between library and framework.
+
+Optional function parameters in Objective-C.
