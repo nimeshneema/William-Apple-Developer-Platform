@@ -2,6 +2,12 @@
 
 List of items to study, along with learning sequence and tentative completion timelines.
 
+-   Programming is twofold activity:
+
+    -   Thinking + Designing (True programming)
+
+    -   Coding (Manifestation).
+
 -   The trinity of coding:
 
     A very very simple yet very powerful mental model. This will change how you do and view coding forever.
@@ -12,7 +18,7 @@ List of items to study, along with learning sequence and tentative completion ti
 
     -   Iteration.
 
--   Part of a function:
+-   Parts of a function:
 
     -   Name (the primary interface)
 
@@ -23,6 +29,8 @@ List of items to study, along with learning sequence and tentative completion ti
     -   Body.
 
 -   Formally diving deeper into functions in Swift language.
+
+    -   Externalised parameter names (forms a part of the name of function)
 
 -   "Functions", Closures, Anonymous functions, Functions acting as first class citizen.
 
