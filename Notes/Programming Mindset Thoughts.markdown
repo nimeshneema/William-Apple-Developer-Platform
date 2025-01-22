@@ -13,3 +13,5 @@
 -   Programming consists mostly of thinking and designing. It's akin to creative art forms such as painting and making music. Writing code (which itself is an art form in its own right), is more about manifesting our ideas.
 
 -   The programming tools (languages, frameworks etc.) should never get in the way. Mastery over the tools lets a developer focus solely on getting their ideas translated into real software. Getting good with the tooling is a very good idea.
+
+-   It is not a massive finished program that teaches programming, but an exposition of the thought process that developed that program. To become a good programmer, it is important to master the art of thought process, more than anything else.
