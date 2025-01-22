@@ -25,3 +25,7 @@
 -   Be very precise and concise in the choice of words (talking about technical writing, not just code. You will be a much programmer).
 
 -   Whenever in doubt, be explicity about usage of an operator. The compiler will compile the code anyways (as long as it is syntactically correct) and the computer will run the code anyways (as long as it is logically correct). But we strive to make it easy to read for others and (our own future self).
+
+-   How do you eat an elephant? One byte at a time (in small pieces).
+
+-   When learning a language, until we have understood something, don't simply assume it to be something that we know from some other langauge. Don't assume unless formally learned.
