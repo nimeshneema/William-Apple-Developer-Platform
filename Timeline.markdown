@@ -32,6 +32,8 @@ List of items to study, along with learning sequence and tentative completion ti
 
     -   Externalised parameter names (forms a part of the name of function)
 
+    -   What goes into Functions in Swift, Various ways of passing parameters, returning multiple values, anonymous functions, closures and abbreviated function syntax (which is extensively used in SwiftUI).
+
 -   "Functions", Closures, Anonymous functions, Functions acting as first class citizen.
 
     Once we cover the above items, it will give a rock solid foundation (not pun intended) in understanding most of all what happens in both Swift and SwiftUI. Both of them utilise concepts from here heavily.
