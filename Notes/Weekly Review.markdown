@@ -1,13 +1,14 @@
+# Weekly Review
+
+## Week 1
+
 Week 1 review
 
 -   History and background. Getting the right mindset about tooling.
 
 -   Some basics of Objective-C, Cocoa and Swift.
 
-
-
-
-
+```
 #include <stdio.h>
 
     // The starting point of execution and the main logic of the program
@@ -82,5 +83,7 @@ int pow(int x, int y) {
 
 //  To give a very simple example.
 //  While a library is like individual LEGO bricks, a framework is more like IKEA DIY kit.
+```
 
 ---
+
