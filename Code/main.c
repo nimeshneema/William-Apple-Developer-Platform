@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int sum(int, int);
+int difference(int, int);
+int pow(int, int);
+
 int main(int argc, char *argv[]) {
     printf("Hello, World!");
 
