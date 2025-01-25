@@ -2,7 +2,7 @@
 
 List of items to study, along with learning sequence and tentative completion timelines.
 
--   Programming is twofold activity:
+-   Programming is two-fold activity:
 
     -   Thinking + Designing (True programming)
 
@@ -45,3 +45,21 @@ List of items to study, along with learning sequence and tentative completion ti
         Swift language makes extensive use of advance concepts in functions which help provide us with pretty powerful thought tooling when it comes to writing code.
 
     -   We will focus on understanding functions (starting with understanding them in general (agnostic to any programming language))
+
+---
+
+## Swift Programming Language - Topics to Learn
+
+-   Functions.
+
+-   Optionals (Swift language feature, very critical and pervasive. Enables seamless communication with Objective-C entities and objects).
+
+-   Applied object oriented programming concepts (Conceptual clarity).
+
+-   Object types in Swift (Classes/Structs/Enum, their features and initialisers). Swift langauge has some advance, interesting and unique features.
+
+-   Umbrella Types (Any, AnyObject)
+
+-   control structures (loops and conditionals). Related advance features in Swift.
+
+-   Asynchronous programming (Interesting, advance and pervasive)
