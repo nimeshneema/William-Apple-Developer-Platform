@@ -63,6 +63,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         aStringThatIJustmade.character(at: 0)
         
+        let arithmeticOperation = Arithmetic()
+        let sumOfNumbers = arithmeticOperation.sum(of: 5, withSecondNumber: 4, andThirdNumber: 3)
+        let productOfNumbers = arithmeticOperation.product(of: 5, withSecondNumber: 4, andThirdNumber: 3)
+        print("Sum of 5, 4 and 3: \(sumOfNumbers)")
+        print("Product of 5, 4 and 3: \(sumOfNumbers)")
+        
         return true
     }
 
