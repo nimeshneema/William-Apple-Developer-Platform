@@ -7,6 +7,19 @@
 
 #import "Arithmetic.h"
 
+// Arithmetic class implementation
 @implementation Arithmetic
+
+- (int)sumOfNumber:(int)firstNumber
+  withSecondNumber:(int)secondNumber
+    andThirdNumber:(int)thirdNumber {
+    return firstNumber + secondNumber + thirdNumber;
+}
+
+- (int)productOfNumber:(int)firstNumber
+      withSecondNumber:(int)secondNumber
+        andThirdNumber:(int)thirdNumber {
+    return firstNumber * secondNumber * thirdNumber;
+}
 
 @end
