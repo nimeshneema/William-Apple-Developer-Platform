@@ -1,6 +1,6 @@
 # Hyperlinks
 
--   Apple Cocoa Framework
+-   Apple Cocoa Framework: [Cocoa Fundamentals Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaFundamentals/WhatIsCocoa/WhatIsCocoa.html)
 
     -   [Foundation Framework](https://developer.apple.com/documentation/foundation)
 
