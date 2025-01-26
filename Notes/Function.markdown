@@ -33,3 +33,15 @@ Functions primarily have three things going on with them, declaration, definitio
     -   In the running program, when a function invocation instruction is encountered, the computer does a context switch and executes the instructions specified in the function body. The arguments supplied to the invoked function are provided to the function instructions, which it acts upon.
 
         The runtime subsystem in the computer sets up things such that, once the function execution is complete, the computer is able to get the returned value, return back to resuming exeuction of the instructions at the point where the context switch was made, and substitutes the return value at the point of function invocation.
+
+To summarise again:
+
+1.  When I specify the name of a function along with the list of argument and the return type, it's called a function "declaration". It's like advertising/declaring to the world about the "interface" of the function. (This concept applies to all programming language)
+
+2.  When we "also" supply the body of the function (the code/logic), we formally call it as function "definition".
+
+    The terminologies "declaration" and "definition" are used universally across all programming languages.
+
+    In C header files all we are getting are declarations corresponding to the compiled function code present in the library.
+
+3.  When we call or trigger a function anywhere else, it is called "invocation". A function invocation uses the name of the function and supplies all the parameters with their correct type.
