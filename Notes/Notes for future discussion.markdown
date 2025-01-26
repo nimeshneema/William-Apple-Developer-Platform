@@ -2,19 +2,19 @@
 
 -   Implicit coercion: When a value is automatically converted to a different data type during an operation.
 
-    Supported in a lot of programming languages. A C program demonstration of the concept:
+    Supported in a lot of programming languages. The following C program gives a demonstration of the concept:
 
     ```
     float y = 3.14;
-    int x = y;          // Implicitly coercion for floating point value into integer value.
+    int x = y;          // Implicit coercion for floating point value into integer value.
     printf("%d", x);
-```
+    ```
 
--   Swift programming language has strict (strong) typing. What this means that every variable, function parameter, or return value in the program must have a explicit and clearly-defined data type all the time. This helps with type safety and makes program less susceptible to error.
+-   Swift programming language has strict typing. What this means is that every variable, function parameter, or return value in the program must have a explicit and clearly-defined data type all the time. This helps with type safety and makes program less susceptible to error.
 
--   Constants are static/fixed values. Such as numbers, characters etc. They have an intrinsic value.
+-   Constants are static/fixed values. Such as numbers, characters etc. They have an intrinsic value. Some examples are `3`, `2.7`, `"Name"`, `'C'` etc. of type integer number, floating point number, string and a character respectively.
 
--   Strong vs Weak typing
+-   Strong vs Weak typing across programming languages.
 
 -   Understanding type system. The type of the data we are working with.
 
@@ -24,39 +24,41 @@
 
     -   Numbers
 
-        -   Integral/Non fractional (both positive and negative).
+        -   Integral/Non-fractional (both positive and negative).
 
-        -   Fractional (both rational (numbers which can be represented in numerator/denominator form) and irrational (which cannot be expressed in numerator/denominator form). 0.5 is rational, whereas the value of Pi is irrational.
+        -   Fractional (both rational (numbers which can be represented in numerator/denominator form) and irrational (which cannot be expressed in numerator/denominator form). `0.5` is rational, whereas the value of `Pi` is irrational.
 
-        Within the above two data type there are variations, which will differ in terms of range supported.
+            Within the above two data type there are variations, which will differ in terms of range supported.
 
-        If I have an 8 bit integer, I am only store value between `-128` to `127` inclusive.
+            If I have an 8 bit integer, I am only store value between `-128` to `127` inclusive.
 
-        Integers can be 8, 16, 32 or 64 bit in size.
+            Integers can be 8, 16, 32 or 64 bit in size.
 
-        Float and Double are data types for storing fractional numbers.
+            Float and Double are data types for storing fractional numbers.
 
-        Float uses less number of bytes to store data, thus storing data with lesser precision.
+            Float uses less number of bytes to store data, thus can store data with lesser precision.
 
-        Double can store numbers with higher precision.
+            Double can store numbers with higher precision.
 
-    -   Character (a single character such as 'c') and String (a sequence of one or more characters such as "Hello").
+    -   Character
+
+        -   A single character such as 'c' and string, a sequence of one or more characters such as "Hello".
 
 -   Word size of macine (commonly 32 or 64 bit).
 
--   Collection data type
+-   Collection data type.
 
     -   These are also sometimes referred to as Derived data types.
 
-    -   They are called derived, becasue they are derived from the some base data type (numberic and character).
+    -   They are called derived, becasue they can be derived from some base data type (numberic and character).
 
-    -   Array (a sequence of items, usually of the same data type)
+    -   Array: A sequence of items, usually of the same data type.
 
-        Formal definition of array: It is an ordered list indexed with numbers. Index starts with 0.
+        Formal definition of array: An ordered list indexed with numbers. Index starts with `0`.
 
-    -   Dictionary (An unordered list indexed with a key)
+    -   Dictionary: An unordered list indexed with a key.
 
-    -   Set An unordered collection of items with no duplication.
+    -   Set: An unordered collection of items with no duplication.
 
         In set there is no concept of sequence but inclusion.
 
@@ -68,15 +70,15 @@
 
     -   Access time for any item in an array in Big-O notation is `O(1)`.
 
--   Endianness (Big endian, Little endian)
+-   Endianness (Big endian and Little endian)
 
-    In most casual programming and software development, this phenomenan is abstracted behind the scenes.
+    In most casual programming and software development, this phenomenan is abstracted away.
 
--   How does Stacks and heaps work for a program in execution (process).
+-   How does Stacks and heaps work for a program in execution (process)?
 
-    How does the exeuction of functions happen in a program
+    How does the exeuction of functions happen in a program?
 
-    Memory layout of a running process.
+    A discussion on memory layout of a running process.
 
     There's an area for dynamic allocation of memory which is used to allocate memory for entites as and when needed while the program is running.
 
@@ -86,7 +88,7 @@
 
     Look up the meaning of the term "Stack Overflow".
 
-    Stack Overflow is a runtime error. Most of the time cases a crash of program.
+    Stack Overflow is a runtime error. Most of the time it causes a program to crash.
 
 -   In C programming language, the support for collection data types is very limited.
 
@@ -102,8 +104,10 @@
 
 -   JavaScript has loose typing
 
-    var x = "Nimesh"    // Here, the variable x is referrring to a contact of type string.
-    x = 1               // Here the same variable x is now pointing to (referring to) a contant value of type integer.
+    ```
+    var x = "Nimesh"    // Here, the variable `x` is referrring to a contact of type string.
+    x = 1               // Here the same variable `x` is now pointing to (referring to) a contant value of type integer.
+    ```
 
     What is the data type of the variable `x`?
     
@@ -113,9 +117,9 @@
 
     But at the same time, having a loosely associated data type with a variable also affords a lot of flexibiity.
 
-    There's both and pros and cons associated with either of strong or weak (loose typing)
+    There's both and pros and cons associated with either of strong or weak (loose typing).
 
-    The flxeibility of using weak type system comes with a price. It is unpredictability.
+    The flxeibility of using weak type system comes with a price. Price of unpredictability.
 
 -   Swift programming language enforces strong typing. Objective-C is more relaxed. It has weak typing system.
 
@@ -137,21 +141,20 @@
 
     In an array you can still change the values of the individual elements by re-assignment, but the size of the container (array) itself is hardcoded at compile time, meaning the memory is allocated statically.
 
-    A dictionary data type is supported in more modern languages than C (such as Ruby, Python, JavaScript, Swift). These languages are also so much more dynamic in terms of memory allocation and the dynamic memory allocation is handled behind the scence such that the developer never even cares or has to worry about the allocation and deallocation of memory. It happens behind the scenece in a automated manner.
+    A dictionary data type is supported in more modern languages (such as Ruby, Python, JavaScript, Swift). These languages are also so much more dynamic in terms of memory allocation and the dynamic memory allocation is handled behind the scence, such that the developer generally never cares or has to worry about the allocation and deallocation of memory. It happens in an automated manner.
 
----
+-   Difference between a library and framework.
 
-Difference between library and framework.
+-   Optional function parameters in Objective-C.
 
-Optional function parameters in Objective-C.
+-   A 101 on easy to understand yet powerful debugging techniques:
 
----
+    -   Step over
 
-A 101 on easy to understand yet powerful debugging techniques:
+    -   Step into
 
--   Step over
--   Step into
--   Pause
--   Continue
+    -   Pause
+
+    -   Continue
 
 ---
