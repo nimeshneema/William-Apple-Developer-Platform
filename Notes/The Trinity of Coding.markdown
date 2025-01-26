@@ -1,8 +1,8 @@
 # The Trinity of Coding
 
--   The trinity (3) of coding:
+-   The trinity of coding:
 
-    A very very simple yet very powerful mental model. This will change how you do and view coding forever.
+    A very simple yet powerful mental model. This will change how you do and view coding forever.
 
     1.  Sequence: A computer program consists of instructions written in a linear sequence. It executes instructions in the same sequence as they are written.
 
