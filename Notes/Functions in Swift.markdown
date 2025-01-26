@@ -1,4 +1,4 @@
-# Functions
+# Functions in Swift
 
 -   "Functions", Closures, Anonymous functions, Functions acting as first class citizen.
 
