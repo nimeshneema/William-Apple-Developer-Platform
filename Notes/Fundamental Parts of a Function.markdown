@@ -2,27 +2,27 @@
 
 -   A function (in almost any language) is like a machine and consists majorly of the following four parts:
 
-    -   Name of the function (the primary interface)
+    -   Name of the function (the primary interface).
 
     -   Argument list along with their (data) types.
 
     -   Return value (data) type.
 
-    -   The Body.
+    -   The body.
 
 -   In the list above, some items are optional (may or may not be present) and others are mandatory.
 
     -   Mandatory:
 
-        -   Name
+        -   Name (Generally speaking, except for anonymous functions which can be found in some languages).
 
-        -   Body
+        -   Body.
 
     -   Optional:
 
-        -   Argument list (A function may take no arguments)
+        -   Argument list (A function may take no arguments).
 
-        -   Return value (a function may not return anything. May just have a side effect, like updating value of a global variable or printing something on console or displaying a dialogue box)
+        -   Return value (A function may not return anything. May just have a side effect, like updating value of a global variable or printing something on console or displaying a dialogue box).
 
 -   Most imperative programming languages with support for functions will have these four parts.
 
@@ -32,4 +32,4 @@
 
     -   Some languages may support returning more than one value.
 
-    -   Some languages may support anonymous functions (meaning the function lacks name).
+    -   Some languages may support anonymous functions (meaning the function lacks a name).
