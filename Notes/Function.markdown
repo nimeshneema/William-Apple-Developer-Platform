@@ -16,6 +16,8 @@ Functions primarily have three things going on with them, declaration, definitio
 
     -   A declaration is also sometimes termed as the function contract.
 
+    -   Function declaration is a contract about what kinds of values will be used as input and about what kind of output will be produced. According to this contract, the function expects a certain number of parameters, each of a certain type, and yields a certain type of result. Everything must correspond to this contract.
+
 2.  Function definition
 
     -   Definition provides the actual code which will be executed.
