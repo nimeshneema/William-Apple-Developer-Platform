@@ -24,21 +24,21 @@
 
 -   It always helps and is recommended to have clarity of thought when programming.
 
--   A piece of code is an evolution of thought processess. It stats tiny but goes through a lot of changes and increments. Thus it is very difficult to gauge the thought process that led to the final output in the form of code. Code is just a means we use to manifest our ideas and thoughts.
+-   A piece of code is an evolution of thought processes. It stats tiny but goes through a lot of changes and increments. Thus it is very difficult to gauge the thought process that led to the final output in the form of code. Code is just a means we use to manifest our ideas and thoughts.
 
--   Don't use magic numbers. Make them explicit and clear. Or use devices such as symbolic constants or supporting (constant) variables (constant variables are a feature available in certain programming languages which lets us create a variable that can't have its value mutated after first assignment). Magic numbers may be hard to spot (differentiate from other occurances of the same number which are not magic number or a different magic number with the same face value).
+-   Don't use magic numbers. Make them explicit and clear. Or use devices such as symbolic constants or supporting (constant) variables (constant variables are a feature available in certain programming languages which lets us create a variable that can't have its value mutated after first assignment). Magic numbers may be hard to spot (differentiate from other occurrences of the same number which are not magic number or a different magic number with the same face value).
 
 -   Be very precise and concise in the choice of words (talking about technical writing, not just code. You will be a much better programmer).
 
--   Whenever in doubt, be explicit about usage of an operator and necessary bracketing in an expression. The compiler will compile the code anyways (as long as it is syntactically correct) and the computer will run the code anyways (as long as it is logically correct). But we should strive to make it easy to read for others (including our own future self).
+-   Whenever in doubt, be explicit about usage of an operator and necessary bracketing in an expression. The compiler will compile the code any-ways (as long as it is syntactically correct) and the computer will run the code any-ways (as long as it is logically correct). But we should strive to make it easy to read for others (including our own future self).
 
 -   How do you eat an elephant? One bite at a time (in small pieces).
 
-    Trying to eat an elephant in one go (trying to parse a complex expression or a feature in programming language in one shot) is both incredibly difficlut and an impossible thing to do.
+    Trying to eat an elephant in one go (trying to parse a complex expression or a feature in programming language in one shot) is both incredibly difficult and an impossible thing to do.
 
--   When learning a new programming language, until we have understood something, don't simply assume it to be something that we know from some other langauge. Don't assume unless formally learned.
+-   When learning a new programming language, until we have understood something, don't simply assume it to be something that we know from some other language. Don't assume unless formally learned.
 
--   In different contextes same thing (symbol, token, terminology) could mean differently even within the same programming language or the environement. It baffels one (unless you have a solid understanding of the fundamenal concepts).
+-   In different contexts same thing (symbol, token, terminology) could mean differently even within the same programming language or the environment. It baffles one (unless you have a solid understanding of the fundamental concepts).
 
     Enumeration in C sample code:
 
@@ -78,11 +78,11 @@
     }
     ```
 
--   A solid understanding (conceptual clarity) of the fundamentals gives you a very powerful mental model to "reason" when programming. With such a mindset, the tool (programming language) gets out of the way and you are able to reason about the solution design and seamlessly tranlate into code.
+-   A solid understanding (conceptual clarity) of the fundamentals gives you a very powerful mental model to "reason" when programming. With such a mindset, the tool (programming language) gets out of the way and you are able to reason about the solution design and seamlessly translate into code.
 
 -   Building of thought: verb building putting pieces together. Can also mean, a noun which commonly refer to a building.
 
--   Establishing understanding of basic theoretical priniples lays a strong foundation. Doing hands on practice is like making a build of thoughts.
+-   Establishing understanding of basic theoretical principles lays a strong foundation. Doing hands on practice is like making a build of thoughts.
 
 Practise helps us in constructing building of thoughts.
 
@@ -90,10 +90,10 @@ Practise helps us in constructing building of thoughts.
 
     Motivation comes as we go with doing something.
 
-    If have are inspired enought about something that we keep pushing oursevels no matter what, after a little bit of a struggle, once things start making some sense, there's a spark of things getting done, we start finding motivation.
+    If have are inspired enough about something that we keep pushing ourselves no matter what, after a little bit of a struggle, once things start making some sense, there's a spark of things getting done, we start finding motivation.
 
--   Once you are motivated enought, you are start enjoying it and it is then when you keep doing it more and more of it and becuase you are doing it more and more, you start seeing some results which further motivates you.
+-   Once you are motivated enough, you are start enjoying it and it is then when you keep doing it more and more of it and because you are doing it more and more, you start seeing some results which further motivates you.
 
--   Winners don't do anything differently rather than showing up everydays.
+-   Winners don't do anything differently rather than showing up everyday.
 
--   If there's anything that can be automated (since it's logic, structuted,), it should be automated. It's a crime to do it manually. Because, computers never get tired and they never get bored and they never make mistakes and they work fast.
+-   If there's anything that can be automated (if it's logical and structured), it should be automated. It's a crime to do it manually. Because, computers never get tired and they never get bored and they never make mistakes and they work fast.
