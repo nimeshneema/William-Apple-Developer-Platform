@@ -28,7 +28,7 @@
 
 -   How the parts are presented may vary based on the syntax the language uses.
 
--   Now there may be certain variations to the above "core concepts" depending on the prorgamming langauge.
+-   Now there may be certain variations to the above "core concepts" depending on the programming language.
 
     -   Some languages may support returning more than one value.
 
