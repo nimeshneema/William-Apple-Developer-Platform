@@ -10,7 +10,7 @@
 
     `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`
 
-    It's a convention in Cocoa apps to use descritive prose like names for functions.
+    It's a convention in Cocoa apps to use descriptive prose like names for functions.
 
     gets translated into Swift equivalent as below:
 
@@ -28,7 +28,7 @@
 
     It is intended such that the code reads more naturally like a sentence.
 
-    The only con being lenthy lines of code. But such a design for naming the entities is highly encourage.
+    The only con being lengthy lines of code. But such a design for naming the entities is highly encourage.
 
     Using prose like naming for functions is a widely adopted convention, but not a syntactical rule.
 
@@ -38,9 +38,9 @@
 
 -   How general purpose is Swift? Can I make a back-end application and have the same language throughout?
 
-    Swift is designed to be a general purpose language and a replacement for languages such as C. It could span from writing consumer apps to device drives, scalable backends, system apps, kernel extensions all the way to operating systems.
+    Swift is designed to be a general purpose language and a replacement for languages such as C. It could span from writing consumer apps to device drives, scalable back-ends, system apps, kernel extensions all the way to operating systems.
 
-    Apart from the 1st party frameworks available for developing for Apple platforms, there's lack of 3rd party libraries and frameworks which in my opinion has restricted the utility of writing scalable backends (also the other backend solutions are pretty mature which makes writing backends in Swift less prefered a choice).
+    Apart from the 1st party frameworks available for developing for Apple platforms, there's lack of 3rd party libraries and frameworks which in my opinion has restricted the utility of writing scalable back-ends (also the other back-end solutions are pretty mature which makes writing back-ends in Swift less preferred a choice in general).
 
 ---
 
@@ -48,10 +48,10 @@
 
 ---
 
--   For nested data stctures such as objects or dictionaries, how does the mutability work?
+-   For nested data structures such as objects or dictionaries, how does the mutability work?
 
 For the reference data types such as objects (an object which is an instance of a class, itself may have properties which are int or string), the properties themselves can be mutated even if the original object is assigned to a let variable.
 
-(I will be able to answer this question more formally and in a better way once we have discussed class types in Swift. There are 4 types objects can be created in Swift. Class, Strcut, Enum and Actors)
+(I will be able to answer this question more formally and in a better way once we have discussed class types in Swift. There are 4 types objects can be created in Swift. Class, Struct, Enum and Actors)
 
 ---
