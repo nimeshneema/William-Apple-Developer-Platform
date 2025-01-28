@@ -4,9 +4,9 @@
 
     Covering the above items  will provide a rock solid foundation (not pun intended) in understanding most of all what happens in both Swift and SwiftUI. Both of them heavily utilise concepts from here.
 
--   Functions are very pervasive in Swift. It's only within function body where the actual action (executable statements) happen. While functions are a crucial part of any programing environment, Swift leverages them to the max. Swift language makes extensive use of some advance concepts in functions.
+-   Functions are very pervasive in Swift. It's only within function body where the actual action (executable statements) happen. While functions are a crucial part of any programming environment, Swift leverages them to the max. Swift language makes extensive use of some advance concepts in functions.
 
-    As the programming evolved over the last decades, a lot of advance concepts around functions were developed (such as functions being first class citizen, closures, lambda etc.).
+    As the programming evolved over the last decades, a lot of advance concepts around functions were developed (such as functions being first class citizen, closures, lambda etc..).
 
     Swift language makes extensive use of such advance concepts in functions, which helps provide us with pretty powerful "thought tooling" when it comes to designing solution and writing code.
 
@@ -55,11 +55,11 @@
         func greet3() { print("howdy") }
         ```
 
--   Function Signature: If we ignore the parameter names in the function declaration, we can completely characterize a function by the types of its inputs and its output. A listing of all the function parameter types and the return type constitue function signature.
+-   Function Signature: If we ignore the parameter names in the function declaration, we can completely characterize a function by the types of its inputs and its output. A listing of all the function parameter types and the return type constitute function signature.
 
 -   Externalized Parameter Names: A function can externalize the names of its parameters. The external parameter names become part of the function’s name, and must appear in a call to the function as labels to the arguments.
 
-    -   They clarify the purpose of each argument; an argument label can give a clue as to how that argument contributes to the behavior of the function.
+    -   They clarify the purpose of each argument; an argument label can give a clue as to how that argument contributes to the behaviour of the function.
 
     -   Distinguishes one function from another; two functions with the same name before the parentheses and the same signature, but with different external parameter names, are two distinct functions. External parameter names are part of the function name.
 
@@ -67,7 +67,7 @@
 
     -   By default, all parameter names are externalized automatically, using the internal name as the external name.
 
-    -   If you want to depart from the default behavior (where the parameter names are externalized automatically):
+    -   If you want to depart from the default behaviour (where the parameter names are externalized automatically):
 
         -   Change the name of an external parameter.
 
@@ -265,4 +265,4 @@
         let arr2 = arr.map {$0*2}
         ```
 
-        It can't get Swiftier than this!
+        It can't get "Swiftier" than this!
