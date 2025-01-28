@@ -2,7 +2,7 @@
 
 -   Delimiters are special symbols (usually found in pairs) that are used for delimiting content when writing code. They come in various forms. Below is a list of some delimiters along with their formal and causally used names.
 
-    One should make it a practise to use formal names when talking/communicating about delimitiers (or any technical concept and topic for that matter). Well written documentation uses formal names and everyone uses formal names (over casual, self made-up names), it makes for precise communication.
+    One should make it a practise to use formal names when talking/communicating about delimiters (or any technical concept and topic for that matter). Well written documentation uses formal names and everyone uses formal names (over casual, self made-up names), it makes for precise communication.
 
     Following is a list of commonly used delimiters when coding.
 
@@ -36,6 +36,6 @@
 
     Thus it becomes crucial to understand the meaning of a symbol and the current context in which we are operating.
 
--   There are other deminiters as well, such as:
+-   There are other delimiters as well, such as:
 
     -   Double quotes and single quotes which are commonly used to contain textual data (such as strings and characters).
