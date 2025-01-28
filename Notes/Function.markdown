@@ -47,3 +47,5 @@ To summarise again:
     In C header files all we are getting are declarations corresponding to the compiled function code present in the library.
 
 3.  When we call or trigger a function anywhere else, it is called "invocation". A function invocation uses the name of the function and supplies all the parameters with their correct type.
+
+Note: Generally when we specify a function name (Objective-C or Swift), we don't use spaces.
