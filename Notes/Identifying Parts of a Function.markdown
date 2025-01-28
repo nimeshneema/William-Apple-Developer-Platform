@@ -4,7 +4,7 @@
 
 -   Parameters: A list of all the parameters (0 or more) that a function accepts.
 
--   Body: The sequence of instructions that constitude the function logic.
+-   Body: The sequence of instructions that constitute the function logic.
 
 -   Return Type (not the return statement): The data type of value the function returns (or `void` if the function doesn't return any).
 
