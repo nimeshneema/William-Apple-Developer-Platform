@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 
     char name[20] = "William";
     name[] = "Nimesh" // I cannot do this in C, because when I have written the statement in the last line, the C compiler will statically allocate space of storing 20 character in memory. So I cannot simply assign some other string to the character array variable name. Instead I'll use a helper function such as `strcpy`.
-    // But in more modern languages, such as Go, JavaScript, Swift, we can easily write these two lines and the "adjustment" of memory required to store the string happens automatucally without the programmer even realising.
+    // But in more modern languages, such as Go, JavaScript, Swift, we can easily write these two lines and the "adjustment" of memory required to store the string happens automatically without the programmer even realising.
 
     return 0;
 }
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 // It is possible that the developer is using some 3rd party library of functions (either in source form or pre-compiled form and the "interfaces" accessed via a header)
 // So the functions themselves could come from any place.
 
-// There's one more detail: Accessessing/consuming/invoking any of the defined or linked function is optional. We may or may not use right.
+// There's one more detail: Accessing/consuming/invoking any of the defined or linked function is optional. We may or may not use right.
 // But it is also possible that a single function such as sum is invoked multiple times in our main program.
 int sum(int x, int y) {
     return x + y;
@@ -101,14 +101,9 @@ ADD017: INS 017
 ADD018: INS 018
 END019:
 
-
-
-// The process data strcuture in th main memory knows about the addresses (like page numbers in a book) of where the instructions corresponding to a function starts and ends.
+// The process data structure in the main memory knows about the addresses (like page numbers in a book) of where the instructions corresponding to a function starts and ends.
 
 // A mental model to use is that a program simply consists of control jumping between different functions.
 // It's an art to design the flow of our program such that our logic design is implemented and we get the desired result.
 
-
-
 // ************************************** //
-
