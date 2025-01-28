@@ -8,7 +8,7 @@
 
     When approaching the development of a variety of software (apps, widgets, plug-ins) for Apple platforms (iOS/iPadOS, macOS, watchOS, tvOS, visionOS), what becomes crucial is to have a clear understanding of the various pieces in the toolchain. Some of them are listed below:
 
-        -   Foundation framework: The foundation framework provides the crucial basic entities and data structures required in programming for any platform (the bare bones of an app) such as collection data types, memory management, object communication, data persistence, network communication etc. The Foundation framework is crucial when developing apps and solutions for any of the Apple platform devices. The Foundation framework also provides the basic skeleton and communication flow/structure necessary for app development.
+        -   Foundation framework: The foundation framework provides the crucial basic entities and data structures required in programming for any platform (the bare bones of an app) such as collection data types, memory management, object communication, data persistence, network communication etc.. The Foundation framework is crucial when developing apps and solutions for any of the Apple platform devices. The Foundation framework also provides the basic skeleton and communication flow/structure necessary for app development.
 
             The Foundation framework is written in Objective-C. The Foundation framework provides the basic groundwork needed by any app for any of the Apple platform devices.
 
@@ -20,7 +20,7 @@
 
             There are a bunch of design patterns and architectural concepts in Cocoa. Establishing a good understanding of those concepts is crucial to become a competent developer for Apple's ecosystem of devices.
 
-        -   Objective-C programming language: It is an object-oriented programming language based on C programming syntax. Unlike C++ it is a gentler object-oriented language. It limits the number of OOPS features and emphasizes the use of protocols over subclassing. Protocols are a list of (function) interfaces and define a particular role. Classes may adopt a protocol and implement functionality declared by the protocol. Adoption of a protocol is also called as conformance.
+        -   Objective-C programming language: It is an object-oriented programming language based on C programming syntax. Unlike C++ it is a gentler object-oriented language. It limits the number of OOPS features and emphasizes the use of protocols over sub-classing. Protocols are a list of (function) interfaces and define a particular role. Classes may adopt a protocol and implement functionality declared by the protocol. Adoption of a protocol is also called as conformance.
 
             Unlike most other high-level compiled programming languages, Objective-C has a peculiar syntax, especially for method invocation.
 
