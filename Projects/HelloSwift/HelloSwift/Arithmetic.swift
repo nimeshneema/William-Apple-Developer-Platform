@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Arithmetic class
+    // Arithmetic class
 class Arithmetic {
 
         // Method to calculate the sum of three numbers
@@ -19,7 +19,13 @@ class Arithmetic {
     func product(of firstNumber: Int, withSecondNumber secondNumber: Int, andThirdNumber thirdNumber: Int) -> Int {
         return firstNumber * secondNumber * thirdNumber
     }
+    
+    func sum(_ first: Int, secondNumber second: Int, third: Int) -> Int {
+        return first + second + third
+    }
+    
+        // Name: sum(first:second:third:)
+    func sum(first: Int, second: Int, third:Int) -> Int {
+        return first + second + third
+    }
 }
-
-
-// sum(of:withSecondNumber:andThirdNumber:)
