@@ -10,7 +10,7 @@ Functions primarily have three things going on with them, declaration, definitio
 
     -   It is called variously as function specification or function interface.
 
-    -   The purpose of declaration is to specify the existance and guide usage format of the function.
+    -   The purpose of declaration is to specify the existence and guide usage format of the function.
 
     -   Most compiled libraries have an accompanying file listing function declaration that acts as guide for both the compiler and the users (developers).
 
@@ -34,7 +34,7 @@ Functions primarily have three things going on with them, declaration, definitio
 
     -   In the running program, when a function invocation instruction is encountered, the computer does a context switch and executes the instructions specified in the function body. The arguments supplied to the invoked function are provided to the function instructions, which it acts upon.
 
-        The runtime subsystem in the computer sets up things such that, once the function execution is complete, the computer is able to get the returned value, return back to resuming exeuction of the instructions at the point where the context switch was made, and substitutes the return value at the point of function invocation.
+        The runtime subsystem in the computer sets up things such that, once the function execution is complete, the computer is able to get the returned value, return back to resuming execution of the instructions at the point where the context switch was made, and substitutes the return value at the point of function invocation.
 
 To summarise again:
 
