@@ -75,3 +75,44 @@ Then, why did I mention the list items in reverse? Well in that order, the items
 4.  Preceding the parameter list is the function name. (This is not fully correct. The function name is formed with the name preceding the term before the parentheses along with the externalized parameter names. The term before the parentheses could be informally referred to as the base name of the function.)
 
     In Swift, the complete name of the function includes the name before the opening parenthesis and the names of all the externalized parameter names followed by a colon.
+
+---
+
+Let's make an example function in Swift:
+
+```
+    func sum(first: Int, second: Int, third:Int) -> Int {
+        return first + second + third
+    }
+```
+
+A function "can" (optionally) have it's parameter names externalized. Meaning externalization must be optional.
+
+What does externalization mean? We can provide an alternative name corresponding to parameters (cannot be used as a substitute).
+
+1.  If we don't do anything, meaning we just write a parameter name and a colon and a data type, the externalization of parameter name happens automatically.
+
+2.  If I do not want to externalize the parameter name, I have to do some internation and suppress the externalization from happening. How do I do that, I specify an underscore (`_`) as a signal to the compiler to suppress the externalization.
+
+3.  If I want a different external name, I simply supply it before the actual parameter name followed by a space.
+
+Why do we need externalization of parameter name in the first name?
+
+Internal names of parameters are for use "only" internally inside the body of the function. So inside the body of the function, whenever we want to refer to or use a parameter, we use it via the (internal) parameter name.
+
+The externalized parameter names form a part of the name of the function.
+
+The full name of a function in Swift is a combination of the base name (the name before the opening parentheses) and all the external parameter names.
+
+The (internal) parameter names are used internally inside the body of the function.
+
+The externalized parameter names are used with the function call/invocation.
+
+When invoking a function, for the parameter which do not have an externalized name, we simply pass the parameter, without any label in the function call.
+
+But when we have an externalized parameter name (either a custom one, or the same as the internal name), the external name has to precede the actual parameter in the function call.
+
+In the function name, there are no spaces anywhere.
+
+---
+
