@@ -87,3 +87,20 @@ int pow(int x, int y) {
 
 ---
 
+## Week 2
+
+-   Trinity of Coding: Sequence, Selection and Iteration.
+
+-   Parts of a function: Body, return value/type, parameter list, name.
+
+    Identify parts of function in Swift.
+
+-   Parts of function in Swift. Identifying them.
+
+-   Externalized parameter name.
+
+-   Practise of programming.
+
+-   Memory layout of running process (4 parts: data section, static variables, heap for dynamic allocation, stack for function calls)
+
+---
