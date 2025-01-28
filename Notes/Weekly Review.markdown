@@ -104,3 +104,15 @@ int pow(int x, int y) {
 -   Memory layout of running process (4 parts: data section, static variables, heap for dynamic allocation, stack for function calls)
 
 ---
+
+## Week 3
+
+-   Externalized parameter names.
+
+-   Identifying function names in Swift.
+
+-   Invoking functions.
+
+-   Object oriented design process.
+
+-   Understanding difference between procedural approach vs object oriented approach to program design.
