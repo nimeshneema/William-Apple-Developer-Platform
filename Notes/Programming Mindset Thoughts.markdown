@@ -79,3 +79,21 @@
     ```
 
 -   A solid understanding (conceptual clarity) of the fundamentals gives you a very powerful mental model to "reason" when programming. With such a mindset, the tool (programming language) gets out of the way and you are able to reason about the solution design and seamlessly tranlate into code.
+
+-   Building of thought: verb building putting pieces together. Can also mean, a noun which commonly refer to a building.
+
+-   Establishing understanding of basic theoretical priniples lays a strong foundation. Doing hands on practice is like making a build of thoughts.
+
+Practise helps us in constructing building of thoughts.
+
+-   We never get motivated naturally. We may get inspired, yes, but not motivated.
+
+    Motivation comes as we go with doing something.
+
+    If have are inspired enought about something that we keep pushing oursevels no matter what, after a little bit of a struggle, once things start making some sense, there's a spark of things getting done, we start finding motivation.
+
+-   Once you are motivated enought, you are start enjoying it and it is then when you keep doing it more and more of it and becuase you are doing it more and more, you start seeing some results which further motivates you.
+
+-   Winners don't do anything differently rather than showing up everydays.
+
+-   If there's anything that can be automated (since it's logic, structuted,), it should be automated. It's a crime to do it manually. Because, computers never get tired and they never get bored and they never make mistakes and they work fast.
