@@ -37,7 +37,7 @@
         ...
         INS00n
 
-        Now such a structre may also be nested. A condition within the sequence of instructions in the condition block.
+        Now such a structure may also be nested. A condition within the sequence of instructions in the condition block.
 
     3.  Iteration: Repeating a sequence of instructions multiple times. Now the count of number of times the sequence of instructions are to be repeated could be determined in one of the two ways:
 
@@ -50,13 +50,13 @@
         INS002
         ...
         ...
-            // Now we have encounted an iteration instruction. We will evaluate the selection condition written in front of the iteration instruction. If the answer is yes, we will proceed with executing the instructions within the scope of iteration instruction, go till the end, and come back to check the selection condition again. We continue to do this as long as we find the condition to be true/yes.
+            // Now we have encountered an iteration instruction. We will evaluate the selection condition written in front of the iteration instruction. If the answer is yes, we will proceed with executing the instructions within the scope of iteration instruction, go till the end, and come back to check the selection condition again. We continue to do this as long as we find the condition to be true/yes.
         INS_while (INS_QUESTION?) {
             INS001
             INS002
             INS003
         }
-            // Continue executing any subsequent instrcutions (if any)
+            // Continue executing any subsequent instructions (if any)
         ...
         ...
         INSn
@@ -68,13 +68,13 @@
         INS002
         ...
         ...
-            // Now we have encounted an iteration instruction. We will execute the sequence of instructions in the following scope/block the number of times as specified for the iteration instruction. This number is non-negative (zero of positive integer)
+            // Now we have encountered an iteration instruction. We will execute the sequence of instructions in the following scope/block the number of times as specified for the iteration instruction. This number is non-negative (zero of positive integer)
         INS_for (counter) {
             INS001
             INS002
             INS003
         }
-            // Continue executing any subsequent instrcutions (if any)
+            // Continue executing any subsequent instructions (if any)
         ...
         ...
         INSn
