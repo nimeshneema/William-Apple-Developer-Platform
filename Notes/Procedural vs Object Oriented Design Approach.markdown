@@ -90,13 +90,16 @@ The following is a blueprint for another entity:
 
     -   registrationNumber
 
--   Functionalities:
+-   Functionalities (that are associated with each instance of the blueprint)
 
     -   reproduce()
 
     -   bark()
 
-    -   run()
+    -   run(withSpeed speed: Double)
+
+    var bubbly = Dog()
+    bubbly.run(withSpeed: 5)
 
     -   eat()
 
