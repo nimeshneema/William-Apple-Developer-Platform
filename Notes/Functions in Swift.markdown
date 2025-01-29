@@ -266,3 +266,80 @@
         ```
 
         It can't get "Swiftier" than this!
+
+---
+
+Having externalized parameter names does not imply that the order of the parameters in a function call can vary. The parameters have to be specified in the same order as defined. We cant change the order.
+
+In Swift, the function that does not return a value has the return type as `Void` (with a capital `V`). Some languages use `void` (with a small `v`, but not in Swift).
+
+Signature of a function that does not take any parameter and returns an Int:
+
+```
+() -> Int
+```
+
+Signature of a function that takes one `Int` parameter and returns an Int:
+
+```
+(Int) -> Int
+```
+
+Signature of a function that does not take any parameter and does not return any value:
+
+```
+() -> ()
+() -> Void
+```
+
+Note: Either `Void` or `()` is used to specify the return type if a function does not return a value. But if a function does not accept any parameters, we can only use `()` but not `Void`. Some programming languages allows the use of the keyword `void` to indicate absence of parameters, but not the case in Swift.
+
+If a function does not return any value, then in the declaration and the definition, we can optionally, skip specifying the return type, i.e. skip `-> ()` or `-> Void`
+
+For e.g.
+
+```
+func sayHello() {
+    print("Hello")
+}
+```
+
+The signature for the function above can be either
+
+```
+() -> ()
+```
+
+or
+
+```
+() -> Void
+```
+
+But, in the signature, we cannot say the following:
+
+```
+()
+```
+
+The signature always needs the specification for both the parameters and the return value.
+
+---
+
+Function Signature in Swift:
+
+So far we have mastered the following concepts related to functions in Swift:
+
+1.  Externalization of parameter names.
+
+2.  Identifying name of function.
+
+3.  Invoking/calling function.
+
+4.  Identifying (four) parts of function.
+
+The next thing to understand is Function Signature. A function signature is considered to be the type of the function.
+
+For a function, the list of parameter types and the return type constitute the function's signature.
+
+Now more than one function can have the same signature.
