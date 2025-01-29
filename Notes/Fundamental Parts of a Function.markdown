@@ -1,5 +1,15 @@
 # Fundamental Parts of a Function
 
+-   Parts of a function:
+
+    -   Name (the primary interface).
+
+    -   Argument list and their (data) types.
+
+    -   Return (data) type.
+
+    -   Body.
+
 -   A function (in almost any language) is like a machine and consists majorly of the following four parts:
 
     -   Name of the function (the primary interface).
