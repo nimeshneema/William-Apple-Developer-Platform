@@ -97,3 +97,5 @@ Practise helps us in constructing building of thoughts.
 -   Winners don't do anything differently rather than showing up everyday.
 
 -   If there's anything that can be automated (if it's logical and structured), it should be automated. It's a crime to do it manually. Because, computers never get tired and they never get bored and they never make mistakes and they work fast.
+
+-   The learning curve is much smoother with strong foundation in place.
