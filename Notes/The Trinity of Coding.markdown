@@ -1,5 +1,7 @@
 # The Trinity of Coding
 
+-   Sequence, Selection, Iteration.
+
 -   The trinity of coding:
 
     A very simple yet powerful mental model. This will change how you do and view coding forever.
