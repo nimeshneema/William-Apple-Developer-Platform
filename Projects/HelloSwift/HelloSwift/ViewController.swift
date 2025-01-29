@@ -12,11 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var aSwitch: UISwitch!
 
         // Name: viewDidLoad()
+        // Signature: () -> ()
     override func viewDidLoad() {
         super.viewDidLoad()
             // Do any additional setup after loading the view.
     }
     
+        // Name: viewDidAppear(_:)
+        // Signature: (Bool) -> ()
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -40,6 +43,8 @@ class ViewController: UIViewController {
     }
  
         // The switch will turn off without animation but will turn on with animation.
+        // Name: pressMe(_:)
+        // Signature: (Any) -> ()
     @IBAction func pressMe(_ sender: Any) {
         if (aSwitch.isOn) {
             aSwitch.setOn(false, animated: false)
