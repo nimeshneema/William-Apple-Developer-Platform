@@ -4,9 +4,9 @@
 
 2.  [Done] Exercise: Write down function signature for various kinds of functions.
 
-3.  [In-Progress] Function Overloading.
+3.  [Done] Function Overloading.
 
-4.  [Upcoming] Gain the same level of confidence in working with function overloading as the other items in functions.
+4.  [In-Progress] Gain the same level of confidence in working with function overloading as the other items in functions.
 
 5.  [Upcoming] Understanding scope, namespace and modules in Swift.
 
