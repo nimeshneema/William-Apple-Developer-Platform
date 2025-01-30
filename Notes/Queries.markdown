@@ -55,3 +55,23 @@ For the reference data types such as objects (an object which is an instance of 
 (I will be able to answer this question more formally and in a better way once we have discussed class types in Swift. There are 4 types objects can be created in Swift. Class, Struct, Enum and Actors)
 
 ---
+
+-   Can a function in Swift return multiple values?
+
+    A function normally can return only one value. But there are ways using which a function can be made to return multiple values (while still working under the protocol/rule of returning a single value).
+
+    1.  Using `inout` parameters, we can modify the parameters passed to a function and in-effect make the function emulate returning multiple values.
+
+    2.  Using a special kind of custom/user-defined data type called Tuple.
+
+        In Swift, a Tuple is a finite ordered list of elements.
+
+        Now, programmer can make a custom data type with a list of one or more types and make variables conforming to that type.
+
+        A function can me made to return a tuple and thereby we can make it return multiple values.
+
+    3.  Closure: Multiple return values can be emulated. (I'm not very sure if I am technically correct here, but we will revisit this point after a while and see how technically accurate we are.)
+
+---
+
+-   Can we `typedef` (name a type) for a tuple in Swift?
