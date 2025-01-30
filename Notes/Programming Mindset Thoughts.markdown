@@ -99,3 +99,9 @@ Practise helps us in constructing building of thoughts.
 -   If there's anything that can be automated (if it's logical and structured), it should be automated. It's a crime to do it manually. Because, computers never get tired and they never get bored and they never make mistakes and they work fast.
 
 -   The learning curve is much smoother with strong foundation in place.
+
+-   There are two kinds of "lines" in procedural source code:
+
+    -   statements:     A statement is akin to an instruction.
+
+    -   expression:     An expression evaluates to a value.
