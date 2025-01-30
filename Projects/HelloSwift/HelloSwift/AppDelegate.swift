@@ -13,6 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Signature: (UIApplication, [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        var record: (Int, Double, String) = (1, 3.14, "William")
+        var record2: (Int, Int) = (11, 12)
+        
+        print(record)
+        print(record2)
+        
             // Override point for customization after application launch.
     
             // Swift enforces very strict typing.
