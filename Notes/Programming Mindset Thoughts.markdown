@@ -105,3 +105,5 @@ Practise helps us in constructing building of thoughts.
     -   statements:     A statement is akin to an instruction.
 
     -   expression:     An expression evaluates to a value.
+
+-   Confidence comes from clear thinking.
